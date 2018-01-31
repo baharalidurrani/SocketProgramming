@@ -29,6 +29,7 @@ public class Main {
             //setting up server
             //server will set on this machine at port 5000
             //and accept maximum of 1 clients
+            //server timeout is 2 minutes
             serverSocket = new ServerSocket(5000, 1);
             serverSocket.setSoTimeout(20000);
             socket = serverSocket.accept();
