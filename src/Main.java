@@ -1,3 +1,7 @@
+//run two instances of this class
+//run one instance with some command line argument - this will be the server
+//run one instance without any arguments - this will be the client
+
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
